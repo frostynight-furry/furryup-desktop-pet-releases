@@ -10,6 +10,7 @@
 <p align="center">
   <a href="https://frostynight.top/furryup/desktop-pet">官方网站</a> ·
   <a href="https://github.com/frostynight-furry/furryup-desktop-pet-releases/releases/tag/v0.3.0-beta.8">最新版本</a> ·
+  <a href="#产品展示">产品展示</a> ·
   <a href="CHANGELOG.md">历次更新</a>
 </p>
 
@@ -43,6 +44,36 @@ Win7 兼容版使用 Electron 22.3.27，不连接 Windows 10 / 11 x64 自动更�
 
 </details>
 
+## 产品展示
+
+### 桌宠运行效果
+
+<p align="center">
+  <img src="assets/screenshots/desktop-pet.png" width="256" alt="桌宠实际运行截图：白蓝色兽耳角色，完整显示身体与尾巴，背景透明">
+</p>
+
+角色直接显示在透明桌宠窗口中。图中的夜霜角色仅用于展示；安装包不内置主播模型，使用时通过主播连接下载已授权内容。
+
+### 桌面偏好
+
+<p align="center">
+  <img src="assets/screenshots/desktop-settings.png" width="320" alt="桌面偏好界面，包含工作模式、主动说话、开机自动启动和桌宠尺寸设置">
+</p>
+
+按自己的节奏调整工作模式、主动说话频率、开机启动与桌宠尺寸。以上为实际界面预览，不同版本的布局细节可能有所调整。
+
+### 三款应用图标
+
+<p align="center">
+  <img src="assets/icon-flat.png" width="80" height="80" alt="明快勾线风格图标">
+  <img src="assets/icon-illustrated.png" width="80" height="80" alt="柔和插画风格图标">
+  <img src="assets/furryup-desktop-pet.png" width="80" height="80" alt="立体手办风格图标">
+</p>
+
+<p align="center">明快勾线 · 柔和插画 · 立体手办</p>
+
+在“桌面偏好 → 图标样式”中选择自己喜欢的风格，默认使用立体手办款。
+
 ## 最近更新
 
 ### 0.3.0-beta.8 · 模型列表更准确
@@ -61,7 +92,7 @@ Win7 兼容版使用 Electron 22.3.27，不连接 Windows 10 / 11 x64 自动更�
 
 ## 关于本仓库
 
-本仓库用于公开分发客户端、产品图标和面向用户的更新说明，**应用源码保持私有**。GitHub 自动生成的 **Source code** 压缩包仅包含对应标签下的公开仓库文件，不含应用源码；安装客户端请使用上面的 EXE 或 MSI。
+本仓库用于公开分发客户端、产品图标、界面展示图和面向用户的更新说明，**应用源码保持私有**。GitHub 自动生成的 **Source code** 压缩包仅包含对应标签下的公开仓库文件，不含应用源码；安装客户端请使用上面的 EXE 或 MSI。
 
 应用更新继续使用官网更新服务，GitHub 下载不会更改现有客户端的更新源。图标与品牌素材仅用于产品展示，不代表开放源码或另行授予素材使用许可。
 
