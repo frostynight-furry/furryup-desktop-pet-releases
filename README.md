@@ -32,25 +32,36 @@ FurryUP 桌宠（FurryUP Desktop Pet）是 FurryUP Studio 的粉丝客户端。�
 2. 打开设置里的 **主播与互动**，粘贴连接，点击 **识别连接**。核对显示的主播名称和发布方，再点 **确认连接**。
 3. 等角色下载完成后，就能在桌面上看到它。首次启动时还没有角色，安装包不附带夜霜或其他主播的模型。
 
+下图取自 0.4.0 候选客户端。公开版 0.3.0-beta.8 也按“识别连接 → 确认连接”的顺序操作。
+
 <p>
-  <img src="assets/screenshots/connect-guide.png" width="320" alt="公开版的新手引导，说明怎样获取连接、核对发布身份和确认启用">
-  <img src="assets/screenshots/connect-creator.png" width="320" alt="公开版的主播与互动设置，未连接时显示粉丝连接输入框和识别连接按钮">
+  <img src="assets/screenshots/connect-guide.png?v=040-r20" width="320" alt="0.4.0 中文新手引导，说明怎样获取连接、核对发布身份和确认启用">
+  <img src="assets/screenshots/connect-creator.png?v=040-r20" width="320" alt="0.4.0 主播与互动设置，未连接时显示粉丝连接输入框和识别连接按钮">
 </p>
 
 ## 产品展示
 
 ### 桌宠运行效果
 
+2026 年 11 月 2 日，使用 Windows 桌宠 **0.4.0** 在本机加载了 **夜霜 r20**。第一张是自然站姿，可以看到垂下的双爪与尾巴上的雪花。第二张截取了模型自带的“抱抱”动作，夜霜张开双臂，露出爪垫。
+
 <p>
-  <img src="assets/screenshots/desktop-pet.png" width="220" alt="夜霜站在透明桌宠窗口中的全身运行截图">
-  <img src="assets/screenshots/random-dialogue.png" width="320" alt="夜霜的随机台词气泡，内容为“进度走到哪里都算数，别忘了看看远处。”">
+  <img src="assets/screenshots/desktop-pet.png?v=040-r20" width="300" alt="桌宠 0.4.0 运行夜霜 r20，双爪自然垂下，雪花尾巴向一侧展开">
+  <img src="assets/screenshots/frostynight-r20-hug.png" width="300" alt="同一窗口播放夜霜 r20 的抱抱动作，两侧爪垫完整可见">
 </p>
 
-图中展示了夜霜的全身形象和桌面对话气泡。可以拖动桌宠、更改大小。角色提供了表情时，点击它还可以触发表情。
+这些截图来自本地角色预览。粉丝实际使用的角色与动作取决于主播通过连接发布的内容。
 
 ### 随机语句与日常陪伴
 
 角色包可以自带情境台词。桌宠会结合时段和互动情境挑选一句，尽量减少重复。想让它安静一些，可以在 **桌面偏好 → 主动说话** 选择关闭、很少、偶尔或活跃。
+
+夜霜这次回应点击的台词是“这里可以点，轻一点就好。”旁边是同一模型张嘴露出蝠牙的表情特写。
+
+<p>
+  <img src="assets/screenshots/random-dialogue.png?v=040-r20" width="315" alt="夜霜 r20 的点击台词气泡，写着“这里可以点，轻一点就好。”">
+  <img src="assets/screenshots/frostynight-r20-fangs.png" width="212" alt="夜霜 r20 在桌宠渲染器内张嘴露出蝠牙的表情特写">
+</p>
 
 ### 主播开播提醒
 
@@ -60,7 +71,7 @@ FurryUP 桌宠（FurryUP Desktop Pet）是 FurryUP Studio 的粉丝客户端。�
 
 开启 **工作模式** 后，桌宠会暂停主动说话、语音和开播提醒。这里也可以调整开机启动和桌宠尺寸。
 
-<img src="assets/screenshots/desktop-settings.png" width="320" alt="桌面偏好设置，显示工作模式、主动说话频率、开机启动和桌宠尺寸">
+<img src="assets/screenshots/desktop-settings.png?v=040-r20" width="320" alt="0.4.0 中文桌面偏好设置，显示语言、工作模式、主动说话频率、开机启动和桌宠尺寸">
 
 <details>
 <summary>三款应用图标</summary>
