@@ -4,9 +4,15 @@
 
 # FurryUP 桌宠 · 历次更新重点
 
-[返回产品首页](README.md) · [下载当前版本](https://github.com/frostynight-furry/furryup-desktop-pet-releases/releases/tag/v0.3.0-beta.8) · [官方网站](https://frostynight.top/furryup/desktop-pet)
+[返回产品首页](README.md) · [下载当前版本](https://github.com/frostynight-furry/furryup-desktop-pet-releases/releases/tag/v0.4.3) · [官方网站](https://frostynight.top/furryup/desktop-pet)
 
-当前公开下载版本为 **0.3.0-beta.8**。以下先列出 0.4.0 的开发预览，再按时间倒序保留此前 24 份更新记录。早期记录包括内测和本机测试版本。
+当前提供 **0.4.3 Beta**。历史开发预览和发布记录按时间倒序保留。
+
+## 0.4.3 Beta · 2026-11-03
+
+- 修复抱抱时爪子被窗口裁切、动作结束后手臂未恢复的问题。
+- Windows 10 / 11 x64 可在应用内检查更新。Windows 7 SP1 32 位使用独立 MSI 手动升级。
+- 两个版本都保留旧版已有的模型运行库。首次安装请先选择对应架构的完整 beta.8 安装包，再升级。[下载入口](README.md#下载客户端)
 
 ## 0.4.0 · 开发预览
 
@@ -15,7 +21,7 @@
 - 新手引导和桌面偏好增加简体中文与 English。选择语言后，设置、桌宠窗口和系统菜单会同步切换，重启后仍使用上次的选择。主播名、模型名与台词保留原文。
 - 关于页补充客户端架构、更新渠道、数据使用及签名说明。遇到不支持的连接协议时，客户端会提示检查更新或向主播索取兼容连接，并保留已有模型、连接和设置。
 
-[查看 0.4.0 开发候选的中英文界面截图](README.md#开发预览)
+[查看 0.4.0 开发候选的中英文界面截图](README.md#本次更新)
 
 ## 0.3 系列 · 多模型与主播内容同步
 

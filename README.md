@@ -9,7 +9,7 @@
   <a href="#下载客户端">下载安装包</a> ·
   <a href="#第一次连接主播">首次连接</a> ·
   <a href="#产品展示">产品展示</a> ·
-  <a href="#开发预览">0.4.0 预览</a> ·
+  <a href="#本次更新">0.4.3 更新</a> ·
   <a href="https://frostynight.top/furryup/desktop-pet">官方网站</a>
 </p>
 
@@ -17,14 +17,14 @@ FurryUP 桌宠（FurryUP Desktop Pet）是 FurryUP Studio 的粉丝客户端。�
 
 ## 下载客户端
 
-当前公开测试版为 **0.3.0-beta.8**。使用 Windows 10 或 11 的 64 位电脑，请选第一行。
+当前内测版本为 **0.4.3 Beta**，已有桌宠可直接升级，无需登记测试机。
 
-| 适用系统 | 安装包 | 更新方式 |
+| 电脑系统 | 已安装桌宠 | 首次安装 |
 | --- | --- | --- |
-| **Windows 10 / 11 · x64** | **[下载 EXE · 105.5 MiB](https://github.com/frostynight-furry/furryup-desktop-pet-releases/releases/download/v0.3.0-beta.8/FurryUP-Desktop-Pet-Setup-0.3.0-beta.8-x64.exe)** | 应用内更新或手动安装 |
-| Windows 7 SP1 · 32 位兼容版 | [下载 MSI · 77.1 MiB](https://github.com/frostynight-furry/furryup-desktop-pet-releases/releases/download/v0.3.0-beta.8/FurryUP-Desktop-Pet-Legacy-Win7-Installer-0.3.0-beta.8-ia32.msi) | 手动更新，真实 Win7 安装仍待验证 |
+| Windows 10 / 11 · 64 位 | 在「关于与维护 → 检查更新」升级，或[下载 0.4.3 x64 EXE](https://github.com/frostynight-furry/furryup-desktop-pet-releases/releases/download/v0.4.3/FurryUP-Desktop-Pet-Setup-0.4.3-x64.exe) | [完整 x64 安装包 0.3.0-beta.8](https://github.com/frostynight-furry/furryup-desktop-pet-releases/releases/download/v0.3.0-beta.8/FurryUP-Desktop-Pet-Setup-0.3.0-beta.8-x64.exe)，装好后检查更新 |
+| Windows 7 SP1 · 32 位 | 退出桌宠，运行 [0.4.3 x86 升级 MSI](https://github.com/frostynight-furry/furryup-desktop-pet-releases/releases/download/v0.4.3/FurryUP-Desktop-Pet-Legacy-Win7-Installer-0.4.3-ia32.msi) | [完整 Win7 32 位 MSI 0.3.0-beta.8](https://github.com/frostynight-furry/furryup-desktop-pet-releases/releases/download/v0.3.0-beta.8/FurryUP-Desktop-Pet-Legacy-Win7-Installer-0.3.0-beta.8-ia32.msi)，装好后运行上列升级 MSI |
 
-这两个 Beta 安装包均未使用 Windows 代码签名，系统可能显示“未知发布者”。安装前可在 PowerShell 运行 `Get-FileHash -Algorithm SHA256 "安装包路径"`，将结果与对应文件名的校验值比对。[下载 SHA-256 校验文件](https://github.com/frostynight-furry/furryup-desktop-pet-releases/releases/download/v0.3.0-beta.8/SHA256SUMS-0.3.0-beta.8.txt) · [本版发布说明](https://github.com/frostynight-furry/furryup-desktop-pet-releases/releases/tag/v0.3.0-beta.8)
+两个升级包都使用旧版已安装的模型运行库。Win7 32 位使用独立的手动更新通道，此次在现代 Windows 上验证了 x86 安装和运行，Win7 真机尚未验证。安装包未签署 Windows 代码签名，每个文件的 SHA-256 均可在发行页核对。[0.4.3 发行说明](https://github.com/frostynight-furry/furryup-desktop-pet-releases/releases/tag/v0.4.3) · [校验文件](https://github.com/frostynight-furry/furryup-desktop-pet-releases/releases/download/v0.4.3/SHA256SUMS-0.4.3.txt)
 
 ## 第一次连接主播
 
@@ -86,9 +86,9 @@ FurryUP 桌宠（FurryUP Desktop Pet）是 FurryUP Studio 的粉丝客户端。�
 
 </details>
 
-## 开发预览
+## 本次更新
 
-**0.4.0 是开发候选，尚未提供公开安装包。** 首次引导和桌面偏好都可以在简体中文与 English 之间切换。设置窗口、桌宠窗口和系统菜单会随之切换，重启后仍使用上次选择的语言。主播名、模型名和角色台词保留原文。
+**0.4.3 Beta** 修复了夜霜 r20 抱抱时爪子被裁切、动作结束后手臂未恢复的问题。 首次引导和桌面偏好都可以在简体中文与 English 之间切换。设置窗口、桌宠窗口和系统菜单会随之切换，重启后仍使用上次选择的语言。主播名、模型名和角色台词保留原文。
 
 <p>
   <img src="assets/screenshots/preview-0.4.0-first-run-zh.png" width="320" alt="0.4.0 开发候选的中文首次引导，语言选择位于卡片顶部">
